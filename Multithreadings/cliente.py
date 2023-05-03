@@ -8,13 +8,13 @@ PORT = 5000
 def send_request(s, request):
     s.sendall(request.encode())
     response = s.recv(1024)
-    print('Resposta:', response.decode())
+    #print('Resposta:', response.decode())
     s.close()
 
-def start_client():
-    requests = ['echo', 'reply', 'reverse']
+def start_client(num_requests, message_size):
+    requests = ['a' * message_size]
 
-    while True:
+    for i in range(num_requests):
         threads = []
         for request in requests:
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -26,7 +26,7 @@ def start_client():
         for thread in threads:
             thread.join()
 
-        time.sleep(1)
+    #time.sleep(1)
 
 if __name__ == '__main__':
-    start_client()
+    start_client(num_requests=100, message_size=512)
