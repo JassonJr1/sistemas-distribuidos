@@ -44,7 +44,6 @@ def start_client():
 
         mensagem_codificada = fernet.encrypt(mensagem.encode())
         s.sendall(mensagem_codificada)
-
     s.close()
 
 6. Chame a função start_client() para iniciar o cliente:
