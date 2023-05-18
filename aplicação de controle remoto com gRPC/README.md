@@ -1,6 +1,6 @@
 Relatório - Chamada de Procedimento Remoto com gRPC em Python
 Este relatório descreve o processo de implementação e execução de uma chamada de procedimento remoto (RPC) utilizando gRPC em Python.
-
+---------------------
 Pré-requisitos
 Antes de começar, certifique-se de ter o seguinte instalado em seu ambiente de desenvolvimento:
 
