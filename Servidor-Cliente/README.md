@@ -12,20 +12,17 @@ Este é um exemplo simples de um cliente de socket em Python que se conecta a um
    from cryptography.fernet import Fernet
 Defina as constantes:
 
-python
-Copy code
+ ```python
 HOST = 'localhost'  # O endereço do servidor (neste caso, é executado localmente)
 PORT = 5058  # A porta utilizada para a comunicação com o servidor
 SECRET_KEY = b'ZmDfcTF7_60GrrY167zsiPd67pEvs0aGOv2oasOM1Pg='  # Chave secreta para criptografia
 Crie um objeto Fernet com a chave secreta:
 
-python
-Copy code
+ ```python
 fernet = Fernet(SECRET_KEY)
 Defina a função handle_response(conn) que será executada em uma thread separada para receber as respostas do servidor:
 
-python
-Copy code
+```python
 def handle_response(conn):
     while True:
         data = conn.recv(1024)
@@ -36,8 +33,7 @@ def handle_response(conn):
         print('Resposta do servidor:', mensagem_decodificada)
 Defina a função start_client() para iniciar o cliente:
 
-python
-Copy code
+```python
 def start_client():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((HOST, PORT))
@@ -57,8 +53,7 @@ def start_client():
     s.close()
 Chame a função start_client() para iniciar o cliente:
 
-python
-Copy code
+```python
 start_client()
 No start_client(), a função cria um objeto de socket, estabelece uma conexão com o servidor usando o endereço e a porta especificados e inicia uma thread separada para lidar com as respostas do servidor.
 
