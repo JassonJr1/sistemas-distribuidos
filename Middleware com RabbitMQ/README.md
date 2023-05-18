@@ -2,10 +2,10 @@
 <html>
 </head>
 <body>
-  <h1>Detector de Incêndio</h1>
+  <h1>MiddleWare com RabbitMQ</h1>
   <p>Este é um exemplo de código para simular a detecção de incêndio em um ambiente utilizando a temperatura da CPU como referência.</p>
 
-  <h2>Código do Produtor</h2>
+  <h2>Detector de Incendio</h2>
   <pre>
     <code>
       import pika
@@ -32,7 +32,7 @@
 
   <p>O código do produtor estabelece uma conexão com o RabbitMQ, cria uma fila chamada "fire_detector" e obtém a temperatura da CPU. Se a temperatura for superior a 70 graus Celsius, uma mensagem indicando a detecção de incêndio é enviada para a fila.</p>
 
-  <h2>Código do Consumidor</h2>
+  <h2>Tentativa de um novo Consumidor</h2>
   <pre>
     <code>
       import pika
