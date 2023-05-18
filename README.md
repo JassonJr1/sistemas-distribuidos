@@ -30,7 +30,7 @@ Este repositório está aberto para visita e colaboração de outros estudantes 
 
 Para mais informações ou dúvidas relacionadas a este repositório, entre em contato com a dupla Jasson Júnior e Leonardo Carvalho através dos seguintes meios:
 
-- Jasson Júnior: [jassonjr5@gmail.com]
-- Leonardo Carvalho: [leonardo.carvalho623@gmail.com]
+- [Jasson Júnior](jassonjr5@gmail.com)
+- [Leonardo Carvalho](leonardo.carvalho623@gmail.com)
 
 Agradecemos sua visita e interesse em nosso repositório!
