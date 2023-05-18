@@ -9,6 +9,27 @@ Certifique-se de ter instalado as seguintes bibliotecas antes de executar o cód
 
 Você pode instalá-las usando o gerenciador de pacotes `pip`: pip install pika psutil
 
+# Produtor
+
+Este é um exemplo de um produtor em Python que publica a temperatura da CPU em um tópico do RabbitMQ. Ele utiliza as bibliotecas `pika` e `psutil` para se conectar ao RabbitMQ e obter a temperatura da CPU, respectivamente.
+
+## Executando o código
+1. Abra o arquivo `produtor.py` em um editor de texto.
+
+2. Ajuste a configuração de conexão se necessário:
+
+```python
+connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+```
+Certifique-se de definir o endereço correto do servidor RabbitMQ.
+
+## Personalização
+Se você precisar obter a temperatura da CPU de forma diferente, ajuste a chamada psutil.sensors_temperatures() no código producer.py.
+
+Se desejar modificar o tópico ou a troca do RabbitMQ, atualize os valores correspondentes nas chamadas exchange_declare() e basic_publish().
+
+Para personalizar ainda mais o código, consulte a documentação das bibliotecas pika e psutil.
+
 # Consumidor
 
 Este é um exemplo de código em Python que ilustra como usar o RabbitMQ para enviar mensagens para uma fila. O código também utiliza a biblioteca `psutil` para obter a temperatura da CPU.
