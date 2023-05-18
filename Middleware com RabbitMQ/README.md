@@ -1,4 +1,3 @@
-Claro! Aqui está uma versão dos códigos em formato Markdown para um arquivo README.md que pode ser usado no GitHub:
 
 ```markdown
 # Detector de Incêndio
@@ -65,4 +64,3 @@ O código do consumidor estabelece uma conexão com o RabbitMQ, cria uma fila e 
 Lembre-se de executar esses códigos em um ambiente Python adequado, com as bibliotecas `pika` e `psutil` instaladas. Além disso, certifique-se de ter o RabbitMQ em execução e configurado corretamente.
 ```
 
-Espero que essa versão em formato README.md seja útil para você utilizar no GitHub!
