@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Detector de Incêndio</title>
 </head>
 <body>
   <h1>Detector de Incêndio</h1>
