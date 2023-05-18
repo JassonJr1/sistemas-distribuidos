@@ -1,5 +1,4 @@
-markdown
-Copy code
+
 # Cliente de Socket em Python
 
 Este é um exemplo simples de um cliente de socket em Python que se conecta a um servidor em execução localmente.
