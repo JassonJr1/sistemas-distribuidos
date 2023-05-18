@@ -2,7 +2,7 @@
 
 Este relatório descreve o processo de implementação e execução de uma chamada de procedimento remoto (RPC) utilizando gRPC em Python.
 
-## Etapas
+## Funcionamento
 
 A seguir estão as etapas necessárias para implementar e executar uma chamada de procedimento remoto com gRPC em Python:
 
