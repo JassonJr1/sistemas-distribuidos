@@ -3,9 +3,9 @@
 
 Certifique-se de ter instalado as seguintes bibliotecas antes de executar o código:
 
-- pika
-- psutil
-- winsound (somente para sistemas Windows)
+- `pika`
+- `psutil`
+- `winsound` (somente para sistemas Windows)
 
 Você pode instalá-las usando o gerenciador de pacotes `pip`: pip install pika psutil
 
