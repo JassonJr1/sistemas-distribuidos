@@ -1,4 +1,24 @@
-# sistemas-distribuidos
-#Dupla: Jasson Júnior e Leonardo Carvalho
+# Repositório GitHub - Sistemas Distribuídos UFRR
 
-Neste repositório será colocado as resoluções das atividades referentes a disciplina de Sistema Distribuídos .
+Este é o repositório GitHub da dupla Jasson Júnior e Leonardo Carvalho para a disciplina de Sistemas Distribuídos da UFRR (Universidade Federal de Roraima).
+
+## Objetivo
+
+O objetivo deste repositório é centralizar e compartilhar os recursos e projetos desenvolvidos durante a disciplina de Sistemas Distribuídos. Aqui você encontrará códigos-fonte, documentação, exemplos de implementação e outros recursos relacionados à disciplina.
+
+## Organização do Repositório
+
+Os projetos desenvolvidos ao longo do semestre estão organizados em seus respectivos diretórios. Cada projeto possui um arquivo README.md contendo informações relevantes, como o propósito do projeto, as tecnologias utilizadas, instruções de instalação e execução, entre outros detalhes importantes.
+
+## Contribuição
+
+Este repositório está aberto para visita e colaboração de outros estudantes e interessados na disciplina de Sistemas Distribuídos. Encorajamos a troca de experiências e o aprendizado conjunto. Sinta-se à vontade para abrir issues, propor melhorias e contribuir com seu conhecimento.
+
+## Contato
+
+Para mais informações ou dúvidas relacionadas a este repositório, entre em contato com a dupla Jasson Júnior e Leonardo Carvalho através dos seguintes meios:
+
+- Jasson Júnior: [jassonjr5@gmail.com]
+- Leonardo Carvalho: [leonardo.carvalho623@gmail.com]
+
+Agradecemos sua visita e interesse em nosso repositório!
