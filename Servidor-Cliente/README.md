@@ -1,4 +1,4 @@
-# Servidor de Socket com Criptografia com Clientes
+# Relatório - Servidor de Socket com Criptografia com Clientes
 
 Este é um exemplo de um servidor de socket que recebe mensagens criptografadas de clientes, decifra essas mensagens, realiza alguma lógica com elas (se necessário), converte as mensagens em letras maiúsculas, criptografa a resposta e envia de volta ao cliente.
 
