@@ -5,7 +5,6 @@ Claro! Aqui está uma versão dos códigos em formato Markdown para um arquivo R
 
 Este é um exemplo de código para simular a detecção de incêndio em um ambiente utilizando a temperatura da CPU como referência.
 
-## Código do Produtor
 
 ```python
 import pika
