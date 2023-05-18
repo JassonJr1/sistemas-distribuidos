@@ -26,3 +26,6 @@ Isso irá gerar os arquivos `meuservico_pb2.py` e `meuservico_pb2_grpc.py` que c
 
 Lembre-se de substituir `meuserv
 
+## Contribuição
+
+Sinta-se à vontade para contribuir para este projeto. Você pode fazer isso abrindo um problema para relatar bugs ou sugerir melhorias, ou enviando um pull request com suas alterações propostas.
