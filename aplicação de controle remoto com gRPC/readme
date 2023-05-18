@@ -1,2 +1,0 @@
-Compilar o arquivo .proto: Use o compilador do gRPC para gerar os arquivos Python necessários para implementar o serviço. No terminal, execute o seguinte comando:
-python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. meuservico.proto
