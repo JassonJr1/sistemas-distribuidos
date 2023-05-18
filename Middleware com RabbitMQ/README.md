@@ -28,7 +28,7 @@
       # Fechar a conexão com o RabbitMQ
       connection.close()
     </code>
-  </pre>
+  
 
   <p>O código do produtor estabelece uma conexão com o RabbitMQ, cria uma fila chamada "fire_detector" e obtém a temperatura da CPU. Se a temperatura for superior a 70 graus Celsius, uma mensagem indicando a detecção de incêndio é enviada para a fila.</p>
 
