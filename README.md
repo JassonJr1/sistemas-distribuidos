@@ -10,6 +10,15 @@ O objetivo deste repositório é centralizar e compartilhar os recursos e projet
 
 Os projetos desenvolvidos ao longo do semestre estão organizados em seus respectivos diretórios. Cada projeto possui um arquivo README.md contendo informações relevantes, como o propósito do projeto, as tecnologias utilizadas, instruções de instalação e execução, entre outros detalhes importantes.
 
+
+# Atividades Desenvolvidas
+Neste repositório, foram desenvolvidas as seguintes atividades relacionadas à disciplina de Sistemas Distribuídos:
+
+- Servidor-Cliente: Implementação completa do sistema de comunicação entre Servidor e Cliente. O código-fonte e a documentação estão disponíveis no diretório correspondente.
+- Middleware com RabbitMQ: Desenvolvimento do middleware utilizando a tecnologia RabbitMQ para a comunicação entre componentes distribuídos. O código e informações detalhadas estão disponíveis na respectiva pasta.
+- Multithreading: A implementação da funcionalidade de multithreading encontra-se incompleta. Estamos trabalhando para finalizar essa parte e disponibilizá-la o mais breve possível.
+- Aplicação de Controle Remoto: O desenvolvimento da aplicação de controle remoto foi concluído com sucesso. Os arquivos necessários e as instruções estão disponíveis para consulta no diretório correspondente.
+
 ## Contribuição
 
 Este repositório está aberto para visita e colaboração de outros estudantes e interessados na disciplina de Sistemas Distribuídos. Encorajamos a troca de experiências e o aprendizado conjunto. Sinta-se à vontade para abrir issues, propor melhorias e contribuir com seu conhecimento.
