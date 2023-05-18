@@ -28,10 +28,8 @@
       # Fechar a conexão com o RabbitMQ
       connection.close()
     </code>
-  
-
+  <pre>
   <p>O código do produtor estabelece uma conexão com o RabbitMQ, cria uma fila chamada "fire_detector" e obtém a temperatura da CPU. Se a temperatura for superior a 70 graus Celsius, uma mensagem indicando a detecção de incêndio é enviada para a fila.</p>
-
   <h2>Tentativa de um novo Consumidor</h2>
   <pre>
     <code>
@@ -62,9 +60,7 @@
       channel.start_consuming()
     </code>
   </pre>
-
   <p>O código do consumidor estabelece uma conexão com o RabbitMQ, cria uma fila e define uma função de callback que será chamada sempre que uma mensagem for recebida na fila. Neste exemplo, a função de callback imprime a mensagem recebida e aciona um alarme sonoro.</p>
-
   <p>Lembre-se de executar esses códigos em um ambiente Python adequado, com as bibliotecas `pika` e `psutil` instaladas. Além disso, certifique-se de ter o RabbitMQ em execução e configurado corretamente.</p>
 </body>
 </html>
