@@ -1,8 +1,4 @@
 # Relatório - Middleware com RabbitMQ
-## Detector de Incendio
-
-Este é um exemplo de código em Python que ilustra como usar o RabbitMQ para enviar mensagens para uma fila. O código também utiliza a biblioteca `psutil` para obter a temperatura da CPU.
-
 ## Requisitos
 
 Certifique-se de ter instalado as seguintes bibliotecas antes de executar o código:
@@ -11,6 +7,10 @@ Certifique-se de ter instalado as seguintes bibliotecas antes de executar o cód
 - psutil
 
 Você pode instalá-las usando o gerenciador de pacotes `pip`: pip install pika psutil
+
+## Detector de Incendio
+
+Este é um exemplo de código em Python que ilustra como usar o RabbitMQ para enviar mensagens para uma fila. O código também utiliza a biblioteca `psutil` para obter a temperatura da CPU.
 
 ## Executando o código
 
