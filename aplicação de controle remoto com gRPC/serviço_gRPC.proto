@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package meuservico;
+
+service MeuServico {
+  rpc MeuMetodo (MeuRequest) returns (MeuResponse);
+}
+
+message MeuRequest {
+  string parametro1 = 1;
+  int32 parametro2 = 2;
+}
+
+message MeuResponse {
+  string resultado = 1;
+}
