@@ -1,6 +1,5 @@
 
-```markdown
-# Detector de Incêndio
+## Detector de Incendio
 
 Este é um exemplo de código para simular a detecção de incêndio em um ambiente utilizando a temperatura da CPU como referência.
 
