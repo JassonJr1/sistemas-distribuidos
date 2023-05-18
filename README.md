@@ -14,10 +14,10 @@ Os projetos desenvolvidos ao longo do semestre estão organizados em seus respec
 # Atividades Desenvolvidas
 Neste repositório, foram desenvolvidas as seguintes atividades relacionadas à disciplina de Sistemas Distribuídos:
 
-- Servidor-Cliente: Implementação completa do sistema de comunicação entre Servidor e Cliente. O código-fonte e a documentação estão disponíveis no diretório correspondente.
-- Middleware com RabbitMQ: Desenvolvimento do middleware utilizando a tecnologia RabbitMQ para a comunicação entre componentes distribuídos. O código e informações detalhadas estão disponíveis na respectiva pasta.
-- Multithreading: A implementação da funcionalidade de multithreading encontra-se incompleta. Estamos trabalhando para finalizar essa parte e disponibilizá-la o mais breve possível.
-- Aplicação de Controle Remoto: O desenvolvimento da aplicação de controle remoto foi concluído com sucesso. Os arquivos necessários e as instruções estão disponíveis para consulta no diretório correspondente.
+- [Servidor-Cliente](Servidor-Cliente): Implementação completa do sistema de comunicação entre Servidor e Cliente. O código-fonte e a documentação estão disponíveis no diretório correspondente.
+- [Middleware com RabbitMQ](Middleware com RabbitMQ): Desenvolvimento do middleware utilizando a tecnologia RabbitMQ para a comunicação entre componentes distribuídos. O código e informações detalhadas estão disponíveis na respectiva pasta.
+- [Multithreadings](Multithreadings): A implementação da funcionalidade de multithreading encontra-se incompleta. Estamos trabalhando para finalizar essa parte e disponibilizá-la o mais breve possível.
+- [Aplicação de controle remoto com gRPC](aplicação de controle remoto com gRPC): O desenvolvimento da aplicação de controle remoto foi concluído com sucesso. Os arquivos necessários e as instruções estão disponíveis para consulta no diretório correspondente.
 
 ## Contribuição
 
