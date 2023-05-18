@@ -61,5 +61,5 @@ channel.start_consuming()
 O código do consumidor estabelece uma conexão com o RabbitMQ, cria uma fila e define uma função de callback que será chamada sempre que uma mensagem for recebida na fila. Neste exemplo, a função de callback imprime a mensagem recebida e aciona um alarme sonoro.
 
 Lembre-se de executar esses códigos em um ambiente Python adequado, com as bibliotecas `pika` e `psutil` instaladas. Além disso, certifique-se de ter o RabbitMQ em execução e configurado corretamente.
-```
+
 
