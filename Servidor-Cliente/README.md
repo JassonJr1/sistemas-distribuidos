@@ -1,4 +1,3 @@
-
 # Cliente de Socket em Python
 
 Este é um exemplo simples de um cliente de socket em Python que se conecta a um servidor em execução localmente.
@@ -10,19 +9,16 @@ Este é um exemplo simples de um cliente de socket em Python que se conecta a um
    import socket
    import threading
    from cryptography.fernet import Fernet
-Defina as constantes:
-
- ```python
+   
+2. Defina as constantes:
 HOST = 'localhost'  # O endereço do servidor (neste caso, é executado localmente)
 PORT = 5058  # A porta utilizada para a comunicação com o servidor
 SECRET_KEY = b'ZmDfcTF7_60GrrY167zsiPd67pEvs0aGOv2oasOM1Pg='  # Chave secreta para criptografia
-Crie um objeto Fernet com a chave secreta:
 
- ```python
+3. Crie um objeto Fernet com a chave secreta:
 fernet = Fernet(SECRET_KEY)
-Defina a função handle_response(conn) que será executada em uma thread separada para receber as respostas do servidor:
 
-```python
+4. Defina a função handle_response(conn) que será executada em uma thread separada para receber as respostas do servidor: 
 def handle_response(conn):
     while True:
         data = conn.recv(1024)
@@ -31,9 +27,8 @@ def handle_response(conn):
 
         mensagem_decodificada = fernet.decrypt(data).decode()
         print('Resposta do servidor:', mensagem_decodificada)
-Defina a função start_client() para iniciar o cliente:
 
-```python
+5. Defina a função start_client() para iniciar o cliente: 
 def start_client():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((HOST, PORT))
@@ -51,10 +46,10 @@ def start_client():
         s.sendall(mensagem_codificada)
 
     s.close()
-Chame a função start_client() para iniciar o cliente:
 
-```python
+6. Chame a função start_client() para iniciar o cliente:
 start_client()
+
 No start_client(), a função cria um objeto de socket, estabelece uma conexão com o servidor usando o endereço e a porta especificados e inicia uma thread separada para lidar com as respostas do servidor.
 
 Em um loop contínuo, o cliente solicita ao usuário que digite uma mensagem para enviar ao servidor. Se o usuário digitar "sair", o loop será interrompido e a conexão será fechada.
