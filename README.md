@@ -22,6 +22,8 @@ Neste repositório, foram desenvolvidas as seguintes atividades relacionadas à 
 
 - [Aplicação de controle remoto com gRPC](aplicação_de_controle_remoto_com_gRPC): O desenvolvimento da aplicação de controle remoto foi concluído com sucesso. Os arquivos necessários e as instruções estão disponíveis para consulta no diretório correspondente.
 
+- [E-commerce](E-commerce):
+
 ## Contribuição
 
 Este repositório está aberto para visita e colaboração de outros estudantes e interessados na disciplina de Sistemas Distribuídos. Encorajamos a troca de experiências e o aprendizado conjunto. Sinta-se à vontade para abrir issues, propor melhorias e contribuir com seu conhecimento.
