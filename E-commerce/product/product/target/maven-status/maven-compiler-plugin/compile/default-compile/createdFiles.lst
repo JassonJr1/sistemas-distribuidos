@@ -1,0 +1,8 @@
+org\acme\service\ProductService.class
+org\acme\MyEntity.class
+org\acme\controller\ProductController.class
+META-INF\panache-archive.marker
+org\acme\dto\ProductDTO.class
+org\acme\entity\ProductEntity.class
+org\acme\repository\ProductRepository.class
+org\acme\GreetingResource.class
