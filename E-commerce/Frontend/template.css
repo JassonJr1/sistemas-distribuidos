@@ -1,0 +1,106 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos do conteúdo principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #productTable {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #productTable th,
+  #productTable td {
+    padding: 8px;
+  }
+  
+  #productTable th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  #productTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+    

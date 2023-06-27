@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pedidos</title>
+    <script src="C:\Users\junio\OneDrive\Área de Trabalho\Faculdade\Sistemas Distribuidos\trabalho final\axios.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Função para enviar uma nova ordem para o servidor
+            document.getElementById("orderForm").addEventListener("submit", function(event) {
+                event.preventDefault(); // Impede o envio padrão do formulário
+
+                // Obtém os dados do formulário
+                var customerId = document.getElementById("customerId").value;
+                var customerName = document.getElementById("customerName").value;
+                var productId = document.getElementById("productId").value;
+                var orderValue = document.getElementById("orderValue").value;
+
+                // Cria um objeto com os dados da ordem
+                var order = {
+                    customerId: customerId,
+                    customerName: customerName,
+                    productId: productId,
+                    orderValue: orderValue
+                };
+
+                // Envia a ordem para o servidor usando o Axios
+                axios.post("/api/orders", order)
+                    .then(function(response) {
+                        // A ordem foi criada com sucesso
+                        alert("Ordem criada com sucesso!");
+                        // Limpa os campos do formulário
+                        document.getElementById("customerId").value = "";
+                        document.getElementById("customerName").value = "";
+                        document.getElementById("productId").value = "";
+                        document.getElementById("orderValue").value = "";
+                    })
+                    .catch(function(error) {
+                        // Ocorreu um erro ao criar a ordem
+                        alert("Erro ao criar ordem: " + error.message);
+                    });
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Pedidos</h1>
+    <form id="orderForm">
+        <label for="customerId">Cliente ID:</label>
+        <input type="text" id="customerId" required><br>
+
+        <label for="customerName">Nome do Cliente:</label>
+        <input type="text" id="customerName" required><br>
+
+        <label for="productId">Produto ID:</label>
+        <input type="text" id="productId" required><br>
+
+        <label for="orderValue">Valor do Pedido:</label>
+        <input type="text" id="orderValue" required><br>
+
+        <button type="submit">Criar Pedido</button>
+    </form>
+</body>
+</html>
