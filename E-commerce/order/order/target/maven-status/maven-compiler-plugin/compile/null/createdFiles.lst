@@ -1,0 +1,12 @@
+org\acme\client\ProductClient.class
+org\acme\repository\OrderRepository.class
+org\acme\client\CustomerClient.class
+org\acme\service\OrderService.class
+org\acme\dto\CustomerDTO.class
+org\acme\dto\OrderDTO.class
+org\acme\controller\OrderController.class
+org\acme\MyEntity.class
+META-INF\panache-archive.marker
+org\acme\dto\ProductDTO.class
+org\acme\entity\OrderEntity.class
+org\acme\GreetingResource.class
