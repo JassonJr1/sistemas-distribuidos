@@ -9,7 +9,7 @@ A aplicação foi construída utilizando os conceitos de microsserviços e arqui
 - Docker
 - IntelliJ IDEA
 - Postgresql
-- POSTMAN
+- Postman
 
 ## Arquitertura do Sistema
 
