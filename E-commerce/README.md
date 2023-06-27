@@ -27,7 +27,6 @@ A aplicação foi construída utilizando os conceitos de microsserviços e arqui
 - Clone o repositorio
 - Inicie o processo do docker compose:
   
-  ''
-  docker-compose up
-  ''
+      docker compose up --build
+  
 - Para testar os micro-serviços, abra o POSTMAN
