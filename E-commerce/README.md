@@ -2,7 +2,7 @@
 
 A aplicação foi construída utilizando os conceitos de microsserviços e arquitetada com Docker e Docker-Compose.
 
-# Requisitos
+## Requisitos
 
 - Java 17 – JDK:
 - Maven
