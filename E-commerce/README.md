@@ -1,6 +1,14 @@
 # Relatório - E-Commerce
 
-A aplicação foi construída utilizando os conceitos de microsserviços e arquitetada com Docker.
+A aplicação foi construída utilizando os conceitos de microsserviços e arquitetada com Docker e Docker-Compose.
+
+# Requisitos
+
+- Java 17 – JDK:
+- Maven
+- Docker
+- IntelliJ IDEA
+- Postgresql
 
 ## Arquitertura do Sistema
 
