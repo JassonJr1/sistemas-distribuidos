@@ -1,0 +1,8 @@
+org\acme\dto\CustomerDTO.class
+org\acme\service\CustomerService.class
+org\acme\controller\CustomerController.class
+org\acme\MyEntity.class
+META-INF\panache-archive.marker
+org\acme\entity\CustomerEntity.class
+org\acme\repository\CustomerRepository.class
+org\acme\GreetingResource.class
