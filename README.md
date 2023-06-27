@@ -22,7 +22,7 @@ Neste repositório, foram desenvolvidas as seguintes atividades relacionadas à 
 
 - [Aplicação de controle remoto com gRPC](aplicação_de_controle_remoto_com_gRPC): O desenvolvimento da aplicação de controle remoto foi concluído com sucesso. Os arquivos necessários e as instruções estão disponíveis para consulta no diretório correspondente.
 
-- [E-commerce](E-commerce):
+- [E-commerce](E-commerce): A implementação utilizando os conceitos de microsserviços e arquitetada com Docker e Docker-Compose.
 
 ## Contribuição
 
