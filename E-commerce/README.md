@@ -8,6 +8,7 @@ A aplicação foi construída utilizando os conceitos de microsserviços e arqui
 - Alteração de Produtos e Usuarios ja cadastrados.
 - Exclusão de Produtos e Usuarios ja cadastrados.
 - Criação da Imagem no Docker Compose
+- Modelo de Front-end
 
 ## Requisitos
 
