@@ -2,6 +2,13 @@
 
 A aplicação foi construída utilizando os conceitos de microsserviços e arquitetada com Docker e Docker-Compose.
 
+## Novas Atualizações
+
+- Agora, é possivel cadastrar mais de 2 produtos e Usuarios.
+- Alteração de Produtos e Usuarios ja cadastrados.
+- Exclusão de Produtos e Usuarios ja cadastrados.
+- Criação da Imagem no Docker Compose
+
 ## Requisitos
 
 - Java 17 – JDK:
